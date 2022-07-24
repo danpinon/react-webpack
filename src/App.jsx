@@ -1,5 +1,5 @@
+import './style.scss'
 
-
-const App = () => <h1>Hello React-Webpack!</h1>
+const App = () => <h1 className="container">Hello React-Webpack!</h1>
 
 export default App;

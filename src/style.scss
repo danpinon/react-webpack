@@ -1,0 +1,25 @@
+$light: #dde6e9;
+$dark: #3d4041;
+
+* {
+  box-sizing: border-box;
+  font-family:Arial, Helvetica, sans-serif;
+}
+
+body {
+  background: $dark;
+  display: grid;
+  place-content: center;
+  min-height: 100vh;
+  margin: 0
+}
+
+h1 {
+  color: $light;
+}
+
+.container {
+  border: 1px solid $light;
+  padding: 1rem;
+  border-radius: 4px;
+}
